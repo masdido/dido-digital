@@ -7,6 +7,7 @@ import Process from "@/components/Process";
 import TrustSection from "@/components/TrustSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import PricingSection from "@/components/PricingSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <ProblemSection />
       <Services />
+      <PricingSection />
       <DemoProjects />
       <Process />
       <TrustSection />

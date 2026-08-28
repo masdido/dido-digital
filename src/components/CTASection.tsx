@@ -1,6 +1,11 @@
+import { getWhatsAppLink, whatsappMessages } from "@/lib/whatsapp";
+
 export default function CTASection() {
   return (
-    <section className="bg-gray-900 px-5 py-20 sm:px-6 lg:px-8">
+    <section
+      id="cta"
+      className="bg-gray-900 px-5 py-20 sm:px-6 lg:px-8"
+    >
       <div className="mx-auto max-w-4xl text-center">
         <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-blue-400">
           Mulai Sekarang
@@ -18,7 +23,7 @@ export default function CTASection() {
 
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
-            href="https://wa.me/6287858760050"
+            href={getWhatsAppLink(whatsappMessages.consultation)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex w-full items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-gray-900 transition hover:bg-gray-100 sm:w-auto"
