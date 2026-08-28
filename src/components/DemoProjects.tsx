@@ -7,21 +7,21 @@ const projects = [
     type: "Food & Beverage",
     href: "/demo/kedai-rasa-kita",
   },
+{
+  title: "Sinar Jaya Mart",
+  category: "Business Website",
+  description:
+    "Website katalog untuk toko lokal yang membantu pelanggan melihat produk, mengetahui informasi toko, dan menghubungi bisnis dengan mudah.",
+  type: "Local Business",
+  href: "/demo/toko-lokal",
+},
   {
-    title: "Toko Lokal",
-    category: "Business Website",
-    description:
-      "Website sederhana untuk memperkenalkan bisnis, layanan, lokasi, dan informasi kontak secara profesional.",
-    type: "Local Business",
-    href: "#",
-  },
-  {
-    title: "Jasa Profesional",
+    title: "Aruna Consulting",
     category: "Landing Page",
     description:
       "Landing page yang dirancang untuk memperkenalkan layanan dan mengarahkan calon pelanggan untuk melakukan kontak.",
     type: "Service Business",
-    href: "#",
+    href: "/demo/jasa-profesional",
   },
 ];
 
