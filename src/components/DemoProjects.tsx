@@ -1,10 +1,11 @@
 const projects = [
   {
-    title: "Katalog UMKM",
+    title: "Kedai Rasa Kita",
     category: "Digital Catalog",
     description:
-      "Katalog produk digital yang membantu pelanggan melihat produk dan menghubungi bisnis dengan lebih mudah.",
+      "Website dan katalog digital untuk membantu pelanggan melihat menu, informasi bisnis, lokasi, dan melakukan pemesanan dengan lebih mudah.",
     type: "Food & Beverage",
+    href: "/demo/kedai-rasa-kita",
   },
   {
     title: "Toko Lokal",
@@ -12,6 +13,7 @@ const projects = [
     description:
       "Website sederhana untuk memperkenalkan bisnis, layanan, lokasi, dan informasi kontak secara profesional.",
     type: "Local Business",
+    href: "#",
   },
   {
     title: "Jasa Profesional",
@@ -19,6 +21,7 @@ const projects = [
     description:
       "Landing page yang dirancang untuk memperkenalkan layanan dan mengarahkan calon pelanggan untuk melakukan kontak.",
     type: "Service Business",
+    href: "#",
   },
 ];
 
@@ -99,13 +102,13 @@ export default function DemoProjects() {
                     {project.type}
                   </span>
 
-                  <button
-                    type="button"
+                  <a
+                    href={project.href}
                     className="inline-flex items-center gap-1 text-sm font-semibold text-gray-900 transition group-hover:text-blue-600"
                   >
                     Lihat Demo
                     <span aria-hidden="true">→</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </article>
